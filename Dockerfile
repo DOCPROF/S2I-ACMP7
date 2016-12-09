@@ -65,6 +65,8 @@ RUN mkdir -p ${HOME} && \
         python \
         gnupg \
         ncurses-libs \
+        mysql \
+        mysql-client \
         # fin ajout
         ca-certificates \
         php7 \
