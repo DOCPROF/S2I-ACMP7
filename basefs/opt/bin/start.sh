@@ -5,6 +5,8 @@
 # and the openshift application (deploy configuration)
 env > /opt/app-root/src/.env
 
+# init database
+mysql_install_db 
 # start mysql
 mysqld --skip-grant-tables &
 
